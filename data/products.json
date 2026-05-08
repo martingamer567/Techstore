@@ -1,56 +1,56 @@
 [
     {
         "id": 1,
-        "nombre": "Heladera Bottom Mount Inox Whirlpool 588 Lts - WRE85AK",
+        "nombre": "Heladera Bottom Mount Inox Whirlpool 588 Lts",
         "precio": 966000,
         "categoria": "Refrigeracion",
         "imagen": "heladera1.jpg"
     },
     {
         "id": 2,
-        "nombre": "Heladera No Frost Samsung 401 Lts - RT40K5530S8",
+        "nombre": "Heladera No Frost Samsung 401 Lts",
         "precio": 750000,
         "categoria": "Refrigeracion",
         "imagen": "heladera2.jpg"
     },
     {
         "id": 3,
-        "nombre": "Freezer Vertical BGH 280 Lts - BFV280BL",
+        "nombre": "Freezer Vertical BGH 280 Lts",
         "precio": 420000,
         "categoria": "Refrigeracion",
         "imagen": "freezer3.jpg"
     },
     {
         "id": 4,
-        "nombre": "Heladera Minibar Candy 90 Lts - CCBS6172X",
+        "nombre": "Heladera Minibar Candy 90 Lts",
         "precio": 185000,
         "categoria": "Refrigeracion",
         "imagen": "heladera4.jpg"
     },
     {
         "id": 5,
-        "nombre": "Smart TV Samsung 55\" 4K QLED - QN55Q70C",
+        "nombre": "Smart TV Samsung 55\" 4K QLED",
         "precio": 1150000,
         "categoria": "Televisores",
         "imagen": "tele1.jpg"
     },
     {
         "id": 6,
-        "nombre": "Smart TV LG 50\" NanoCell - 50NANO77SRA",
+        "nombre": "Smart TV LG 50\" NanoCell",
         "precio": 890000,
         "categoria": "Televisores",
         "imagen": "tele2.jpg"
     },
     {
         "id": 7,
-        "nombre": "Smart TV TCL 43\" Full HD - 43S5400A",
+        "nombre": "Smart TV TCL 43\" Full HD",
         "precio": 520000,
         "categoria": "Televisores",
         "imagen": "tele3.jpg"
     },
     {
         "id": 8,
-        "nombre": "Smart TV Philips 32\" HD - 32PHD6917",
+        "nombre": "Smart TV Philips 32\" HD",
         "precio": 310000,
         "categoria": "Televisores",
         "imagen": "tele4.jpg"
