@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Encabezado con título, buscador y botón de carrito -->
+    <header>
+        <h1>TechStore</h1>
+        <div class="header-controles">
+            <input type="text" id="buscador" placeholder="Buscar producto...">
+            <button id="btn-carrito">
+                🛒 Carrito (<span id="cant-carrito">0</span>)
+            </button>
+        </div>
+    </header>
+    
+    <!-- Botones para filtrar por categoría -->
+    <section class="categorias">
+        <button class="btn-cat activo" data-cat="todas">Todas</button>
+        <button class="btn-cat" data-cat="Refrigeracion">Refrigeración</button>
+        <button class="btn-cat" data-cat="Televisores">Televisores</button>
+        <button class="btn-cat" data-cat="Audio">Audio</button>
+        <button class="btn-cat" data-cat="Computacion">Computación</button>
+    </section>
+    
+    <!-- Grilla donde se muestran las tarjetas de productos -->
+    <main id="contenedor-productos">
+        <!-- Las tarjetas se generan dinámicamente con JavaScript -->
+    </main>
+    
+    <!-- Panel lateral del carrito -->
+    <aside id="carrito" class="oculto">
+        <h2>Tu Carrito</h2>
+        <div id="items-carrito">
+            <!-- Los items se generan dinámicamente con JavaScript -->
+        </div>
+        <p class="total">Total: $<span id="total-precio">0</span></p>
+        <button id="btn-comprar">Finalizar Compra</button>
+        <button id="btn-cerrar-carrito">Cerrar</button>
+    </aside>
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="main.js"></script>
+</body>
+</html>
