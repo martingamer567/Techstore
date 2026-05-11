@@ -286,3 +286,54 @@ main {
 #btn-cerrar-carrito:hover {
     background-color: #ddd;
 }
+
+
+   /* RESPONSIVE */
+
+
+/* Tablets */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;
+    }
+
+    .header-controles {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #buscador {
+        width: 100%;
+    }
+
+    #btn-carrito {
+        width: 100%;
+    }
+
+    .categorias {
+        justify-content: center;
+    }
+
+    #carrito {
+        width: 100%;
+    }
+}
+
+/* Celulares */
+@media (max-width: 480px) {
+    main {
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        padding: 15px;
+        gap: 14px;
+    }
+
+    .tarjeta h3 {
+        font-size: 0.8rem;
+    }
+
+    .tarjeta .precio {
+        font-size: 1rem;
+    }
+}
